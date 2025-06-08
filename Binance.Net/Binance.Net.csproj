@@ -44,6 +44,9 @@
     <DocumentationFile>Binance.Net.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Binance.Net.xml" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Icon\icon.png" Pack="true" PackagePath="\" />
     <None Include="..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
